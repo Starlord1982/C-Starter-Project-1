@@ -8,8 +8,27 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+int main() {
+    
+    int count;
+    for (count =0; count < 100; ++count) {
+        if (count % 3 == 0) {
+            printf("FIZZ \n");
+            
+            if (count % 5 == 0) {
+                printf("FIZZ BUZZ \n");
+                
+            }
+        
+        
+        } else if (count % 5 == 0) {
+            printf("BUZZ \n");
+            
+        } else {
+            
+            printf("%d \n", count);
+        }
+        
+        
+    }
 }
