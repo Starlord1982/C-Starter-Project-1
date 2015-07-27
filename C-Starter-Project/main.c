@@ -3,8 +3,7 @@
 //  C-Starter-Project
 //
 //  Created by Daniel Mathews on 2015-02-02.
-//  Copyright (c) 2015 com.lighthouse-labs. All rights reserved.
-//
+//  Copyright (c) 2015 com.lighthouse-labs. All rights reserv
 
 #include <stdio.h>
 
